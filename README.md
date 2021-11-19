@@ -19,20 +19,6 @@ You have also the option to search through TMDB's catalogue using the search fun
 Go try it and please let me know if you enjoyed it with a ⭐️, I would appreciate it a lot.
 <br/>
 
-## ▶️ Demo
-
-Here you can find the demo links:
-
-- [Vercel](https://fakeflix-clone.vercel.app/)
-- [Netlify](https://fakeflix-app.netlify.app/)
-
-### Test credentials (for lazy users 😓)
-
-> Email: fakeflixuser@test.com<br/>
-> Password: FakeflixTest<br/>
-
-I have also added a button that lets you sign in anonymously.
-
 ## :sparkles: Features
 
 :heavy_check_mark: &nbsp;&nbsp;Display movies and series, old and upcoming, also from the real Netflix<br />
@@ -70,19 +56,6 @@ I have also added a button that lets you sign in anonymously.
 - [Framer Motion](https://www.framer.com/motion/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Netlify](https://www.netlify.com) (have a look below) and [Vercel](https://vercel.com/) for the deploy and CI.
-
-## Netlify deploy & configuration
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/14a32bbb-d899-445d-8fa6-8bed739c0296/deploy-status)](https://app.netlify.com/sites/fakeflix-app/deploys)
-
-### Deploy configuration steps
-
-1. Connect your GitHub account to Netlify
-2. Select the project
-3. In Settings → Build & Deploy → Set **Build command** to : **_npm run build_**
-4. In Settings → Build & Deploy → Set **Publish directory** to : **_build_**
-5. In Settings → Build & Deploy → Set **Environment variables** → Click on **Edit variables** and add yours (ie: TMBd's API key, Firebase configuration).
-   <br/>
 
 ## 📸 Screenshots
 
@@ -166,9 +139,3 @@ REACT_APP_FIREBASE_MEASUREMEMT_ID=REACT_APP_FIREBASE_MEASUREMEMT_ID
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 <br/>
-
-## 📝 License
-
-[MIT](https://github.com/Th3Wall/Fakeflix/blob/main/LICENSE)
-
-<a href="https://www.buymeacoffee.com/th3wall" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="41" width="174" alt="Buy Me A Coffee" /></a>
